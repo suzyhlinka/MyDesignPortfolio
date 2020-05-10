@@ -36,6 +36,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Suzy\Documents\MyDesignPortfolio\MyDesignPortfolio\Projects\2020" />
       <recent name="C:\Users\Suzy\Documents\MyDesignPortfolio\MyDesignPortfolio" />
       <recent name="C:\Users\Suzy\Documents\MyDesignPortfolio\MyDesignPortfolio\assets" />
     </key>
@@ -50,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588449431887</updated>
-      <workItem from="1588449433036" duration="7403000" />
+      <workItem from="1588449433036" duration="17129000" />
     </task>
     <servers />
   </component>
@@ -66,5 +67,9 @@
       <screen x="1920" y="169" width="1600" height="860" />
     </state>
     <state x="2549" y="533" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.169.1600.860@1920.169.1600.860" timestamp="1588468321734" />
+    <state x="1033" y="244" key="run.anything.popup" timestamp="1589083250563">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1033" y="244" key="run.anything.popup/0.0.1920.1040/1920.169.1600.860@0.0.1920.1040" timestamp="1589083250563" />
   </component>
 </project>
