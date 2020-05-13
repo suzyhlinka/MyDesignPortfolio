@@ -5,12 +5,12 @@
     <title>Hello!</title>
     <link href="css/style.css" rel="stylesheet" type="text/css">
 
-    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
--->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </head>
 
 <body>
-   <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="https://web.njit.edu/~snh7">Suzy Hlinka</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -36,72 +36,42 @@
                 <li class="nav-item">
                     <a class="nav-link" href="https://web.njit.edu/~snh7/DD415/LabFive/responsive.html">Lab 5</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="https://web.njit.edu/~snh7/DD415/LabSix/index.html">Lab 6</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="https://web.njit.edu/~snh7/DD415/Final/index.html">Final Project</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-
-    <header class="masthead">
-        <div class="container h-100">
-            <div class="row h-100 align-items-end justify-content-start ">
-
-                <div class="col-sm-8 align-self-end">
-                    <h1 class="text-black font-weight-bold">I'm Suzy</h1>
-                </div>
-
-                <div class="col-lg-8 col-sm-7 col-9 align-self-baseline">
-                    <p class="text-white-75 font-weight-light mb-5"> I’m starting the beginning of my portfolio design. Switching from a web server host, I can track the development of my portfolio throughout life. A simple way to start as a course final project to figure out the logistics. But I know that this is something that will benefit me later.
-                    </p>
-                    <a href="#projects" >This is only the beginning</a>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <section class="page-section" id="projects">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8 text-center">
-                    <h2 class="text-black font-weight-bold">and these are my projects...</h2>
-                    <p class="text-white-75 font-weight-light mb-5">I want to keep account of my belongings, and that includes projects. I’ve done a lot here and there. It's been a bumpy ride up to this point. But I’m still in school, and trying different things.</p>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    -->
-
     <header class="home">
-        <h1>Hey!</h1>
+        <h1>Hey!</h1><br>
         <h3>I'm <a href = "about.html">Suzy.</a><br/>
-        I'm an <a href = "https://www.linkedin.com/in/suzyhlinka/">NJIT Student,<a/><br/>
-        and this is my <a href="#projects">design portfolio.</a></h3>
+        I'm an <a href = "https://www.linkedin.com/in/suzyhlinka/">NJIT Student,</a><br/>
+        and <a href="#projects">this</a> is my design portfolio.</h3>
     </header>
 
     <section id="intro">
-        <h3>I'm showcasing and archiving myself, my projects, and my portfolio process.<br>
-        To be accountable of all the things I am and do,<br>
-        By the simplest and purest way.</h3>
+        <h3>I'm showcasing and archiving both myself<br> and <a href="https://github.com/suzyhlinka/MyDesignPortfolio">my portfolio process.</a> <br>
+        To be accountable,<br> of all that I am and do.<br></h3>
     </section>
 
    <section id="projects">
-       <h3>This is my work in AR/VR/UX/UI, Presentation Design, and anything else worth mentioning.<br></h3>
-       <div class="content-contain" id="content-contain"></div>
-       <h3>And this is only the beginning</h3>
+       <h3>This is <a href="" onclick="allSort(); return false;">my work</a> in <a href="" onclick="arvrSort();return false;">AR/VR/UX/UI</a>, <a href="" onclick="presentationsSort();return false;">Presentation Design</a>, and <a href="" onclick="miscSort();return false;">anything else</a> worth mentioning.<br></h3>
+       <br>
+       <div class="project-cards" id="project-cards"></div>
     </section>
 
+   <script type="text/javascript" src="projectlist.js"></script>
 
+   <footer>
+       &copy Suzy Hlinka 2020
+   </footer>
+
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

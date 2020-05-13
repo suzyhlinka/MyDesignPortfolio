@@ -10,9 +10,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -36,8 +36,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Suzy\Documents\MyDesignPortfolio\MyDesignPortfolio\Projects\2020" />
       <recent name="C:\Users\Suzy\Documents\MyDesignPortfolio\MyDesignPortfolio" />
+      <recent name="C:\Users\Suzy\Documents\MyDesignPortfolio\MyDesignPortfolio\Projects\2020" />
       <recent name="C:\Users\Suzy\Documents\MyDesignPortfolio\MyDesignPortfolio\assets" />
     </key>
   </component>
@@ -51,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588449431887</updated>
-      <workItem from="1588449433036" duration="44193000" />
+      <workItem from="1588449433036" duration="60111000" />
     </task>
     <servers />
   </component>
@@ -59,6 +59,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="432" y="163" key="#Notifications" timestamp="1589330674115">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="432" y="163" key="#Notifications/0.0.1680.1010@0.0.1680.1010" timestamp="1589330674115" />
     <state x="1100" y="283" key="FileChooserDialogImpl" timestamp="1589132929357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -71,9 +75,13 @@
       <screen x="1920" y="169" width="1600" height="860" />
     </state>
     <state x="2549" y="533" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.169.1600.860@1920.169.1600.860" timestamp="1588468321734" />
-    <state x="1033" y="244" key="run.anything.popup" timestamp="1589254583264">
+    <state x="1033" y="244" key="run.anything.popup" timestamp="1589340063755">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1033" y="244" key="run.anything.popup/0.0.1920.1040/1920.169.1600.860@0.0.1920.1040" timestamp="1589254583264" />
+    <state x="1033" y="244" key="run.anything.popup/0.0.1920.1040/1920.169.1600.860@0.0.1920.1040" timestamp="1589340063755" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1589341083624">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.169.1600.860@0.0.1920.1040" timestamp="1589341083624" />
   </component>
 </project>
